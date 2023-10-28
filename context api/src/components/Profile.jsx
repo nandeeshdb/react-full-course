@@ -5,7 +5,7 @@ import UserContext from '../context/UserContext'
 function Profile() {
   const { user } = useContext(UserContext)
 
-  if(!user) return (<h1>no profile name</h1>)
+  if(!user) return <h1>no profile name</h1>
 
 
   return (
